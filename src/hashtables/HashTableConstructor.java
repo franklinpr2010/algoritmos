@@ -9,7 +9,7 @@ public class HashTableConstructor {
         mapaDeDados = new Node[tamanho];  // Inicializa o array com o tamanho definido
     }
 
-    // Classe interna Node para armazenar pares chave-valor
+    // Classe interna Node para armazenar linked chave-valor
     public class Node {
         private String chave;         // Chave do tipo String
         private int valor;           // Valor do tipo int
